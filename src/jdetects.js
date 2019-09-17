@@ -46,7 +46,7 @@
         setStatus("on");
         return;
       }
-      var r = /./;
+      var r = function() {};
       r.toString = function() {
         checkStatus = "on";
         setStatus("on");
